@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b8f27461ba00e7b45b89246b78d419ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SpiderModel: {instanceID: 0}
+  - SnakeModel: {instanceID: 0}
+  - UnicornModel: {instanceID: 0}
+  - BearModel: {fileID: 8794408372109664403, guid: c78003706e0ae0e4d9c59641ed6a0d21, type: 3}
+  - EntModel: {instanceID: 0}
+  - GolemModel: {instanceID: 0}
+  - GriffinModel: {instanceID: 0}
+  - DragonModel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

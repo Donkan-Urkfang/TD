@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ZonaTorres
+  - Camino
+  - Inicio
+  - Final
+  - Spider
+  - Snake
+  - Unicorn
+  - Bear
+  - Ent
+  - Golem
+  - Griffin
+  - Dragon
   layers:
   - Default
   - TransparentFX

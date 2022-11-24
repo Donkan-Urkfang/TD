@@ -1,25 +1,42 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 public class Enemigos : MonoBehaviour
 {
-    protected NavMeshAgent path;
+    protected Transform []caminoASeguir;
+    protected Transform []caminoASeguirA = Nivel1PathA.caminoA;
+    protected Transform []caminoASeguirB = Nivel1PathB.caminoB;
+    protected Transform []caminoASeguirC = Nivel1PathC.caminoC;
     protected int atk;
     protected int speed;
     protected int hp;
+    protected int waypoint = 1;
     
-    private void Start() {
-        path = gameObject.GetComponent<NavMeshAgent>();
+    protected void CaminoAleatorio(){
+        switch (Random.Range(1,3)){
+            case 1:
+                caminoASeguir = caminoASeguirA; 
+            break;
+
+            case 2:
+                caminoASeguir = caminoASeguirB; 
+            break;
+
+            case 3:
+                caminoASeguir = caminoASeguirC; 
+            break;
+        }
     }
-    
+
     protected void Path(){
-        if (path.enabled){
-            path.SetDestination(StartEnd.end[0].position);
+        transform.position = Vector3.MoveTowards(transform.position, caminoASeguir[waypoint].position, speed * Time.deltaTime);
+        float distance = Vector3.Distance(transform.position, caminoASeguir[waypoint].position);
+        if (distance <= 0.1f){
+                waypoint ++;
         }
     }
 
     protected void Animation(){
-        if (path.speed != 0 && hp>0)
+        if (speed != 0 && hp>0)
         {
             gameObject.GetComponentInChildren<Animator>().SetBool("walk", true);
         } else {
@@ -32,15 +49,17 @@ public class Enemigos : MonoBehaviour
 
     protected void Death(){
         hp=0;
-        Collider col = gameObject.GetComponentInChildren<Collider>();
-        col.enabled = !col.enabled;
-        path.enabled = !path.enabled;
+        Destroy(gameObject.GetComponent<Collider>());
+        Destroy(gameObject.GetComponent<Rigidbody>());
         gameObject.GetComponentInChildren<Animator>().SetBool("death", true);
         Destroy(gameObject,5f);
     }
 
     protected void OnTriggerEnter(Collider other) {
-        Death();
-    }
+        if (other.tag == "Final"){
+            Death();
+            NivelDatos.playerHP -= 1;
+        }
+    }    
 }
 
