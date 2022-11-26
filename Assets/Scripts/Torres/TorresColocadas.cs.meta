@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c8b3085326671054793d11a03fd7164b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - salidaDisparo: {instanceID: 0}
+  - balasInstanceadas: {instanceID: 0}
+  - scriptDisparo: {fileID: 1576089351623975071, guid: ac92fc48787ad5c4ebd4be179b477f8a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

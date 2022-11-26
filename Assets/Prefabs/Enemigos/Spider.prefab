@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4425537995914309080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8189412589193881012}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_L_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3086582298603495031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_R_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2669575350959566623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5237585379259370770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: zub_R_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7424578887889016812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: zub_L_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1213490892230517325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_L_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4010748024483171123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_L_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1719750141646547834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_L_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 964260844277413857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_L_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5111009487811441218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_L_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2595655623126717089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_R_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,10 +404,9 @@ GameObject:
   - component: {fileID: 3058342089525195811}
   - component: {fileID: 835906599537745187}
   - component: {fileID: 5116086627839955799}
-  - component: {fileID: 5430829686363823115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spider
-  m_TagString: Spider
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,8 +420,8 @@ Transform:
   m_GameObject: {fileID: 2394429843635056281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5152433569140676278}
   - {fileID: 1263889236925057330}
@@ -461,22 +460,10 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &5430829686363823115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2394429843635056281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b84b2a4c083824794daba4ec25f7ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2445694091787215918
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4336205005382467685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_L_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5047733182969532245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_R_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +536,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2258932779134288467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_L_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1791354558748138342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_R_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2519373489260751038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_R_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,7 +631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4656603421886605844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_L_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8493961218531586548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_L_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6388165968738473612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_R_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5152433569140676278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8722008534348878953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5396234926403294117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_R_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7779847093872960284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_R_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5503300959008659815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -900,7 +887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7329124351281973169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_L_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -932,7 +919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1084352218796715447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_L_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -964,7 +951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8275860288838229064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_L_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2996851600052506104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: zub_L_big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89272418770423291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: zub_R_big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6393386078087285280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6516492447328455317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_L_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7620396591531645977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: popa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,7 +1139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2964612114418803738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_R_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,7 +1171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2897183101330356862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_R_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,7 +1203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8312845128961307874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_L_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8359969856610151941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_R_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,7 +1267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4050859269718198105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_L_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1301,7 @@ GameObject:
   - component: {fileID: 1263889236925057330}
   - component: {fileID: 905153646791532502}
   - component: {fileID: 6667242122222202007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 685696258297217841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_R_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6722927409469325313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_R_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,7 +1511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122089703314404368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_R_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1556,7 +1543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470773674660497297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_L_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1588,7 +1575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5103320776348561649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_2_L_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,7 +1607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4262756957325094982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_L_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1651,7 +1638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5613598011876939622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1683,7 +1670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5358312053834534747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_1_L_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1714,7 +1701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7380666483138809694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_3_R_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,7 +1732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356928724494090322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lapa_4_R_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

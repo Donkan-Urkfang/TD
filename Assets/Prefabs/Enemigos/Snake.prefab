@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5032518677116465437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8224232827806211488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_R_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3041895311916562390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7751715502592674506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1652154949562659478}
   - component: {fileID: 5497368037303197005}
   - component: {fileID: 8244727307976902873}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: viper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8316037134800013016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7306929914030759120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1468248987993251846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6322488605846122945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7850816756524720371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2235946803585695298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8284883522052575219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_R_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3918510158163250750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2604176957938022804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_L_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4591979766488344889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613452182733260374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,10 +639,9 @@ GameObject:
   - component: {fileID: 3348513115239656338}
   - component: {fileID: 6538158644444941782}
   - component: {fileID: 2821963549249662251}
-  - component: {fileID: 1579611339041548216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Snake
-  m_TagString: Snake
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -656,7 +655,7 @@ Transform:
   m_GameObject: {fileID: 2680660215915409704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1468248987993251846}
@@ -697,22 +696,10 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1579611339041548216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2680660215915409704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b84b2a4c083824794daba4ec25f7ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2915642078001697090
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7412325169200218004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,7 +740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8225201929725961921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4251976214509048266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3054709957884226612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4246445396993444947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_R_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1834604253818185474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: side_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7677240490936965650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579844491658377975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7228219368337251396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5424448405160565495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_L_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1041,7 +1028,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2619799412398847761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2275788153248251971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_L_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8363657648077671215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1123,7 @@ GameObject:
   - component: {fileID: 5429883969103786328}
   - component: {fileID: 6411520050976821394}
   - component: {fileID: 5814205816931656543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: viper_stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 253585364499554426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1286,7 +1273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8843423565709621653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3424034634635092957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1348,7 +1335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3286289283119928055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 111111857085655226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: side_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1410,7 +1397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4706640789999107708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3934189417176358457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9201295862529820881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stones_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6978650507989136426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_L_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
