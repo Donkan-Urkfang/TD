@@ -5,6 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - enemigos: {fileID: 2088760346762484725, guid: 0b3fd8422539b4140a37ce0cd4ace4d7, type: 3}
+  - torres: {fileID: 6444720740308829921, guid: c193e42fc61614e458f0a1e491a482a5, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

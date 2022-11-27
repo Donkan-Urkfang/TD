@@ -3,7 +3,9 @@ guid: a9377fa4041d6774fa9a1ce07b61ea6c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyHUD: {fileID: 1268850606595123280, guid: 7201fe73df618334f97f2523ac3568e3, type: 3}
+  - torresHUD: {fileID: 7967061285690918484, guid: f5f759f4137d39d418e8a87daf6a8bee, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

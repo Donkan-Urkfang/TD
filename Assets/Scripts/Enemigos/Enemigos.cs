@@ -103,11 +103,13 @@ public class Enemigos : MonoBehaviour
             gameObject.layer = 0;
         }
         if (hpVirtual <= 0){
+            NivelDatos.oroDisponible +=1;
             Death();
         }
     }
 
     protected void Death(){
+        NivelDatos.numeroEnemigosRestantes -= 1;
         Destroy(gameObject.GetComponentInChildren<MeshCollider>());
         gameObject.GetComponentInChildren<Animator>().SetBool("death", true);
         Destroy(gameObject,2);
